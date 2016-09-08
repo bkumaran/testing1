@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>Poseidon testsomething Application</name>
+    <description>Poseidon testsomething Application</description>
+
+    <parent>
+        <groupId>com.flipkart.poseidon.apps</groupId>
+        <artifactId>testsomething</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.flipkart.poseidon.apps.testsomething</groupId>
+    <artifactId>api</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.flipkart.poseidon</groupId>
+            <artifactId>core</artifactId>
+            <version>${poseidon.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.flipkart.poseidon</groupId>
+            <artifactId>container</artifactId>
+            <version>${poseidon.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.flipkart.poseidon</groupId>
+            <artifactId>api</artifactId>
+            <version>${poseidon.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.flipkart.poseidon</groupId>
+            <artifactId>http-handler</artifactId>
+            <version>${poseidon.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.flipkart.poseidon</groupId>
+            <artifactId>service-clients-core</artifactId>
+            <version>${poseidon.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.flipkart.poseidon.apps.testsomething</groupId>
+            <artifactId>commons</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.flipkart.poseidon.apps.testsomething</groupId>
+            <artifactId>datasources</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.flipkart.cp</groupId>
+            <artifactId>spring-beans-property-configurer</artifactId>
+            <version>${spring-beans-property-configurer.version}</version>
+        </dependency>
+    </dependencies>
+</project>

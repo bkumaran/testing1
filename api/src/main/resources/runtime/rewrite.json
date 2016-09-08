@@ -1,0 +1,9 @@
+[
+  {
+    "active": true,
+    "name": "ALL_URL_CONVERTER",
+    "details": "Converts all URLs to /",
+    "from": "^/.*$",
+    "to": "/"
+  }
+]

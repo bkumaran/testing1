@@ -1,0 +1,22 @@
+{
+  "url": "/",
+  "httpMethod": "GET",
+  "timeout": 10000,
+  "params": {
+    "required": [
+      {
+        "name": "msg",
+        "datatype": "String"
+      }
+    ]
+  },
+  "tasks": {
+    "testsomethingDT": {
+      "name": "testsomethingDS_1.0.0",
+      "context": {
+        "msg": "{{$msg}}"
+      }
+    }
+  },
+  "response": "{{$testsomethingDT}}"
+}
